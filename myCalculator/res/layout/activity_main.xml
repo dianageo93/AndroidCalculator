@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#004400"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:weightSum="1" >
+    
+    <TextView
+	    android:id="@+id/txtIntrodus"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	   	android:textSize="50sp"
+	    android:gravity="right"
+	    android:textColor="#000000"
+	    android:layout_marginTop = "3sp"
+	    android:layout_marginLeft = "5sp"
+	    android:layout_marginRight = "5sp"
+    	android:textIsSelectable="true"
+    	android:layout_weight=".1"
+    	android:background="@drawable/textstroke" />
+    
+    <LinearLayout android:layout_weight=".1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        
+        <TextView
+            android:id="@+id/txtRezultat"
+            android:layout_width="225dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="3sp"
+            android:background="@drawable/textstroke"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/C"
+            style="@style/specialButtons"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="3sp"
+            android:layout_weight=".8"
+            android:text="@string/delete" />        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".16"
+        android:orientation="horizontal"
+        android:layout_marginRight="5sp" 
+        android:weightSum="1">
+        <Button
+                android:id="@+id/unu"
+                style="@style/specialButtons"
+                android:text="@string/one"
+                android:layout_weight="0.2"/>
+
+        <Button
+                android:id="@+id/doi"
+                style="@style/specialButtons"
+                android:text="@string/two"
+                android:layout_weight="0.2" />
+        
+        <Button
+                android:id="@+id/trei"
+                style="@style/specialButtons"
+                android:text="@string/three"
+                android:layout_weight="0.2" />
+        <Button
+                android:id="@+id/plus"
+                style="@style/specialButtons"
+                android:text="@string/plus"
+                android:layout_weight="0.2" />
+        
+        <Button
+                android:id="@+id/sin"
+                style="@style/specialButtons2"
+                android:text="@string/sin"
+                android:layout_weight="0.2" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_weight=".16"
+        android:layout_marginRight="5sp" 
+        android:weightSum="1">
+        <Button
+                android:id="@+id/patru"
+                style="@style/specialButtons"
+                android:text="@string/four"
+                android:layout_weight=".2" />
+        <Button
+                android:id="@+id/cinci"
+                style="@style/specialButtons"
+                android:text="@string/five"
+                android:layout_weight=".2" />
+        <Button
+                android:id="@+id/sase"
+                style="@style/specialButtons"
+                android:text="@string/six"
+                android:layout_weight=".2" />
+        <Button
+                android:id="@+id/minus"
+                style="@style/specialButtons"
+                android:text="@string/minus"
+                android:layout_weight=".2" />
+        
+        <Button
+                android:id="@+id/cos"
+                style="@style/specialButtons2"
+                android:text="@string/cos"
+                android:layout_weight=".2" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight=".16"
+        android:layout_marginRight="5sp" 
+        android:weightSum="1" >
+        <Button
+                android:id="@+id/sapte"
+                style="@style/specialButtons"
+                android:text="@string/seven"
+                android:layout_weight=".2" />
+        <Button
+                android:id="@+id/opt"
+                style="@style/specialButtons"
+                android:text="@string/eight"
+                android:layout_weight=".2" />
+        <Button
+                android:id="@+id/noua"
+                style="@style/specialButtons"
+                android:text="@string/nine"
+                android:layout_weight=".2" />
+        <Button
+                android:id="@+id/ori"
+                style="@style/specialButtons"
+                android:text="@string/ori"
+                android:layout_weight=".2" />
+        <Button
+                android:id="@+id/tan"
+                style="@style/specialButtons2"
+                android:text="@string/tan"
+                android:layout_weight=".2" />
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight=".16"
+        android:layout_marginRight="5sp" 
+        android:weightSum="1" >
+        <Button
+                android:id="@+id/zero"
+                style="@style/specialButtons"
+                android:text="@string/zero"
+                android:layout_weight=".2" />
+        <Button
+                android:id="@+id/punct"
+                style="@style/specialButtons"
+                android:text="@string/punct"
+                android:layout_weight=".2" />
+        <Button
+                android:id="@+id/supra"
+                style="@style/specialButtons"
+                android:text="@string/impartire"
+                android:layout_weight=".2" />
+        <Button
+                android:id="@+id/egal"
+                style="@style/specialButtons"
+                android:text="@string/egal"
+                android:layout_weight=".2" />
+        <Button
+                android:id="@+id/cotan"
+                style="@style/specialButtons2"
+                android:text="@string/cotan"
+                android:layout_weight=".2" />
+        
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight=".16"
+        android:layout_marginRight="5sp" 
+        android:weightSum="1" >
+        <Button
+                android:id="@+id/pstanga"
+                style="@style/specialButtons"
+                android:text="@string/pstanga"
+                android:layout_weight=".2" />
+        <Button
+                android:id="@+id/pdreapta"
+                style="@style/specialButtons"
+                android:text="@string/pdreapta"
+                android:layout_weight=".2" />
+        <Button
+                android:id="@+id/pow"
+                style="@style/specialButtons"
+                android:text="@string/pow"
+                android:layout_weight=".2" />
+        <Button
+                android:id="@+id/log"
+                style="@style/specialButtons2"
+                android:text="@string/log"
+                android:layout_weight=".2" />
+        <Button
+                android:id="@+id/sqrt"
+                style="@style/specialButtons2"
+                android:text="@string/sqrt"
+                android:layout_weight=".2" />
+        
+    </LinearLayout>
+</LinearLayout>
